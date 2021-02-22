@@ -221,6 +221,7 @@ input:focus{
 .offers-section .offer.shopping img{
     width: 350px;
     margin-right: 30px;
+    opacity: 0;
 }
 .offers-section .offer.time{
     background-color: orange;
