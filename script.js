@@ -1,11 +1,5 @@
-gsap.registerPlugin(ScrollTrigger)
-
-gsap.utils.toArray('.offer-text').forEach(offertext => {
-    ScrollTrigger.create({
-        trigger:offertext,
-        x:40,
-        opacity:1,
-        duration:3,
-        ease:'bounce'
-    })
+AOS.init({
+    
+  offset:300, 
+  duration: 1500
 })
